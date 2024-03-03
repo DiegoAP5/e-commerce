@@ -1,6 +1,6 @@
 // src/controllers/userController.ts
 import express from 'express';
-import { UserService } from '../services/userService';
+import { UserService } from '../../application/services/userService';
 import { HTTPUserAdapter } from '../adapters/httpUserAdapter';
 
 export class UserController {

@@ -1,5 +1,5 @@
-import { Product } from '../domain/product';
-import { ProductPort } from '../ports/productPort';
+import { Product } from '../../domain/product';
+import { ProductPort } from '../../domain/ports/productPort';
 
 export class ProductService {
   constructor(private readonly productRepository: ProductPort) {}

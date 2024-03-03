@@ -1,5 +1,5 @@
-import { Order } from '../domain/order';
-import { OrderPort } from '../ports/orderPort';
+import { Order } from '../../domain/order';
+import { OrderPort } from '../../domain/ports/orderPort';
 
 export class OrderService {
   constructor(private readonly orderRepository: OrderPort) {}

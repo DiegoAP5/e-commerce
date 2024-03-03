@@ -1,6 +1,6 @@
 // src/adapters/mysqlUserAdapter.ts
-import { User } from '../domain/user';
-import { UserPort } from '../ports/userPort';
+import { User } from '../../domain/user';
+import { UserPort } from '../../domain/ports/userPort';
 import mysql, { Pool } from 'mysql2/promise';
 
 export class MySQLUserAdapter implements UserPort {

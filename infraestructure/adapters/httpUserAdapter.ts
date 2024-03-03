@@ -1,7 +1,7 @@
 // src/adapters/httpUserAdapter.ts
 import express, { Request, Response } from 'express';
-import { User } from '../domain/user';
-import { UserService } from '../services/userService';
+import { User } from '../../domain/user';
+import { UserService } from '../../application/services/userService';
 
 export class HTTPUserAdapter {
   constructor(private readonly userService: UserService) {}

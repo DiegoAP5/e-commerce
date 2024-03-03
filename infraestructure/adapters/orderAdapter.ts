@@ -1,5 +1,5 @@
-import { Order } from '../domain/order';
-import { OrderPort } from '../ports/orderPort';
+import { Order } from '../../domain/order';
+import { OrderPort } from '../../domain/ports/orderPort';
 import { Pool, RowDataPacket } from 'mysql2/promise';
 
 export class MySQLOrderAdapter implements OrderPort {

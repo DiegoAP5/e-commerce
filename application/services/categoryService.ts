@@ -1,5 +1,5 @@
-import { Category } from '../domain/category';
-import { CategoryPort } from '../ports/categoryPort';
+import { Category } from '../../domain/category';
+import { CategoryPort } from '../../domain/ports/categoryPort';
 
 export class CategoryService {
   constructor(private readonly categoryRepository: CategoryPort) {}

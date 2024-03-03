@@ -1,5 +1,5 @@
-import { Product } from '../domain/product';
-import { ProductPort } from '../ports/productPort';
+import { Product } from '../../domain/product';
+import { ProductPort } from '../../domain/ports/productPort';
 import { Pool, RowDataPacket } from 'mysql2/promise';
 
 export class MySQLProductAdapter implements ProductPort {

@@ -1,5 +1,5 @@
 import express, { Request, Response } from 'express';
-import { ProductService } from '../services/productService';
+import { ProductService } from '../../application/services/productService';
 
 export class ProductController {
   constructor(private readonly productService: ProductService) {}

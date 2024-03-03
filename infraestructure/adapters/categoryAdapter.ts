@@ -1,5 +1,5 @@
-import { Category } from '../domain/category';
-import { CategoryPort } from '../ports/categoryPort';
+import { Category } from '../../domain/category';
+import { CategoryPort } from '../../domain/ports/categoryPort';
 import { Pool, RowDataPacket } from 'mysql2/promise';
 
 export class MySQLCategoryAdapter implements CategoryPort {

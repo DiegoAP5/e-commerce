@@ -1,4 +1,4 @@
-import { Order } from '../domain/order';
+import { Order } from '../order';
 
 export interface OrderPort {
   getAllOrders(): Promise<Order[]>;

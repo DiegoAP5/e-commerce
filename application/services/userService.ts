@@ -1,5 +1,5 @@
-import { User } from '../domain/user';
-import { UserPort } from '../ports/userPort';
+import { User } from '../../domain/user';
+import { UserPort } from '../../domain/ports/userPort';
 
 export class UserService {
   constructor(private readonly userRepository: UserPort) {}
